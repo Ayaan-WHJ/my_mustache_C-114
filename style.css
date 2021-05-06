@@ -1,0 +1,26 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 25%, rgba(203,201,7,1) 37%, rgba(10,255,0,1) 50%, rgba(3,218,111,1) 63%, rgba(0,164,255,1) 75%, rgba(0,5,255,1) 100%);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px rgb(255, 0, 0);}
+    to{box-shadow:1px 1px 38px rgb(255, 167, 4);}
+}
+
+button{
+    height:50px;
+    width: 1000px;
+}
